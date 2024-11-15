@@ -1,0 +1,32 @@
+Open Exam folder
+In that create folder Q1_Docker -> Open terminal
+  -- cd Q1_Docker
+create to file 
+1) touch index.html (write anything ) 
+2) touch Dockerfile (add this ) 
+    FROM nginx
+    COPY index.html/usr/share/nginx/html
+
+On terminal-->
+  sudo docker info
+  sudo service docker start
+
+  sudo docker build -t Q1_Docker.
+(this command build a new Docker images with the tag  "Q1_Docker" 
+  using the docker file in the current directory  )
+ 
+  sudo docker images
+ 
+  sudo docker run -d -p 8080:80 Q1_Docker   
+(-p mapping ports)
+(This tells docker to run the Q1_Docker container and map port 8080 on your
+ local machin to port 80 inside the container)
+
+sudo docker ps
+
+Open Browser 
+0.0.0.0:8080
+
+
+
+
