@@ -1,0 +1,36 @@
+jenkins to comunicate github we used access tocken as security layer
+
+open github (genarate personal access tocken)
+setting ->developer setting-> personal access token->generate new tocken 
+add name -> tick all->genrate tocken -> copy
+
+Git hub make repository (JenkinsDemo)
+repository url
+git remote set -url origin git_url_paste
+git add.
+git status
+git commit -m"This is my forst change"
+git push origin main
+username:git hubusername
+passward: personal access token paste here
+
+open jenkins
+ngrok login->login ->accepts All->
+
+to integrate jenkins and github we wants plugins git
+manage jenkins-> manage plugins -> git client 
+
+Goto Congigure system ->scroll down--> github ->add gethub server->name ,api,screte text ,
+screte-(paste personal access token)-->Id-CI/CD -->add
+testing credential
+
+make CI/CD pipeline 
+create job ->name  ->ok  
+general ->souce code management ->select git
+repository_url ->add hithub url paste here
+branch name --main
+build step add ->excute shell
+
+CI/CD
+code changes commit -->then 
+
