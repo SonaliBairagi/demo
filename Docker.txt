@@ -1,3 +1,5 @@
+it is open source platform design to devloped ,package and deplyed application using containers 
+
 Open Exam folder
 In that create folder Q1_Docker -> Open terminal
   -- cd Q1_Docker
