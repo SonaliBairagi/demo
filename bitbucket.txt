@@ -15,6 +15,20 @@ git commit -m"This is my firt changes"
 git push origin master
 git status
 
+To make child branch
+git branch "newbranch"
+git checkout "newbranch"
+touch monali.txt ---->open and write 
+git status
+git add.
+git commit -m "This is my Second change"
+
+git push origin newbranch
+
+open github -->create mearge req->add name discription-->create
+git checkout main
+git pull origin main
+git log
 
 if passwaord ->Goto bitbucket setting->app-password ->label(---)
 --->permission all tick ->create paste into pasword :......
