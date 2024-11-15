@@ -1,0 +1,20 @@
+open bitbucket --> +  ->create repo -> repo name -->public ->git -> create
+terminal 
+mkdir bitbucketDemo
+cd bitbucketDemo---(create text file bitbucket.text)
+git init
+adding remote repo in local repository
+goto bitbucket ..click on Clone ->copy url->
+goback to terminal 
+git remote add origin clone_url_paste_here
+or 
+git remote set -url origin  https://bairagisonali2019@bitbucket.org/sona02/sonali-bairagi.git
+git status
+git add.
+git commit -m"This is my firt changes"
+git push origin master
+git status
+
+
+if passwaord ->Goto bitbucket setting->app-password ->label(---)
+--->permission all tick ->create paste into pasword :......
