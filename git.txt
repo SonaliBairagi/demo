@@ -1,0 +1,34 @@
+git apt install git
+sudo apt update
+sudo apt install git
+git  -->to check install or not
+
+git config --global user.name"Sonali"
+git config --global user.name"bairagiSonali2019@gmail.com"
+To create repo
+git init myrepo
+cd myrepo
+
+touch sonali.txt ---->open and write
+git status
+git add. or git add sonali.txt or git add --a
+git commit -m"This is my forst change" 
+git status
+
+To make child branch
+git branch "newbranch"
+git checkout "newbranch"
+touch monali.txt ---->open and write 
+git status
+git add.
+git commit -m "This is my Second change"
+
+git push origin newbranch
+
+open github -->create mearge req->add name discription-->create
+git checkout main
+git pull origin main
+git log
+
+
+
