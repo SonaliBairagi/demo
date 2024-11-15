@@ -1,4 +1,6 @@
- for make comunication between jenkins github we used access tocken as security layer
+jenkins ->it is open source automated code for CI/CD
+it helps to devloper to build ,test ,deployed the code automatically..
+for make comunication between jenkins github we used access tocken as security layer
 
 open github (genarate personal access tocken)
 setting ->developer setting-> personal access token->generate new tocken 
