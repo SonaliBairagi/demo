@@ -1,2 +1,9 @@
 git lab is devops platform that provides a tools for entire software devlopment life cycle.
 like planning ,codig ,testing ,deployment and monitering..
+
+Setting ->devloper setting->personal access tocken-->tocken clisic ->generate new tcken clasic-
+expiry no->all tick->genearte tocken ->copy
+
+Go to terminal ->
+git remote set -url origin Pasete_that_access_tocken_here /github_username_paste/reponame
+
