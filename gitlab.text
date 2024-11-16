@@ -1,6 +1,29 @@
 git lab is devops platform that provides a tools for entire software devlopment life cycle.
 like planning ,codig ,testing ,deployment and monitering..
 
+create new projet
+git clone Url_paste
+cd folder_name
+touch newwfile.txt
+git status
+git add.
+git commit -m "This is 1st change"
+git status 
+git log
+git branch"newbranch"
+git checkout newbranch
+touch 2fle.txt
+git add.
+git commit -m "2nd chamge"
+git status
+git push origin newbranch
+open gitlab->project enter ->create mearge req->name,description,create
+git checkout main
+git pull origin main
+git log 
+git init
+
+if error occurs
 Setting ->devloper setting->personal access tocken-->tocken clisic ->generate new tcken clasic-
 expiry no->all tick->genearte tocken ->copy
 
